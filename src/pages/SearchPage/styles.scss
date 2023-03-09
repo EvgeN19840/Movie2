@@ -1,0 +1,56 @@
+.wrapsearch {
+  width: 1230px;
+  min-height: 600px;
+  background: #ffffff;
+  border-radius: 20px;
+  margin-top: 90px;
+  margin-bottom: 430px;
+}
+.result-search-category {
+  .newslist {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  .wrap-setitem {
+    margin-left: 5px;
+  }
+}
+.clearfon {
+  margin-left: 90px;
+}
+.searchcategory {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  color: #333333;
+}
+.searchinput {
+  width: 1050px;
+
+  height: 40px;
+  font-size: 15px;
+  padding-left: 35px;
+  margin-top: 18px;
+  border: 1px solid #888888;
+  border-radius: 20px;
+}
+.search-text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 70px;
+}
+.searchresulttext {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 35px;
+  color: #333333;
+}

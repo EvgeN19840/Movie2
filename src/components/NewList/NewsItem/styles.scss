@@ -1,0 +1,58 @@
+.wrap-setitem {
+  margin-top: 40px;
+  margin-left: 90px;
+  margin-right: 20px;
+  text-decoration: none;
+  color: #333333;
+}
+
+
+
+.name-movis, p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  text-transform: uppercase;
+  padding-top: 10px;
+  width: 100px;
+	overflow: hidden;
+  white-space: nowrap;
+	text-overflow: ellipsis;
+
+ 
+}
+.poster-movis {
+
+  width: 180px !important;
+  height: 260px !important;
+  border-radius: 10px;
+  background-color: rgb(243, 10, 10);
+
+
+}
+.hover-div :hover{
+  opacity: 0.5;
+  transition-duration: 2s;
+
+}
+
+.filmold {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+
+
+}
+.movies-name-old{
+  display: flex;
+  align-items: flex-start;
+}
+.genres-movis {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  padding-top: 5px;
+}

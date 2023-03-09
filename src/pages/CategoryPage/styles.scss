@@ -1,0 +1,56 @@
+.category-page-items {
+  width: 1230px;
+  min-height: 1670px;
+
+  background: #ffffff;
+  border-radius: 20px;
+  margin-top: 104px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.category-page-text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  color: #333333;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-left: 90px;
+}
+span {
+  color: #e59c9c;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  padding-left: 35px;
+}
+
+.itemtext {
+  display: inline-flex;
+  justify-content: space-between;
+  padding-top: 25px;
+  
+  .newslist {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .wrap-setitem {
+    display: flex !important;
+    margin-top: 25px;
+  }
+  .filmold {
+    display: none;
+  }
+  .about-movis-text {
+    display: block;
+    padding-left: 43px;
+  }
+  .name-movis {
+    font-size: 20px;
+  }
+  .genres-movis {
+    font-size: 16px;
+  }
+}
+
